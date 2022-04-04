@@ -20,13 +20,6 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBAction func whenAddButtonPressed ( sender :UIButton){
-        let firstNumberTextField = Double(firstNumberTextField.text!)
-        let secondNumberTextField = Double(secondNumberTextField.text!)
-        let answer = Double(firstNumberTextField! * secondNumberTextField!)
-        answerLabel.text = "The Answer is \(answerLabel)"
-       
-        
-    }
+  
 }
 
